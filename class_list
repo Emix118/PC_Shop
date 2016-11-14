@@ -1,0 +1,33 @@
+PC Shop FP class list
+
+	! = function 
+	* = child
+	- = job
+	/ = done
+
+class store(): 
+	- stores dicts
+
+
+	!available
+	!sold
+	!price
+
+class computer():
+	-makes computer object
+	
+class components(): 
+	class mother_board(*)
+	class micro(*)
+	class ram(*)
+	class hard_drive(*)
+
+/ class user():
+	-make new user
+		-if needed assing admin status
+	-allow password change
+
+	!check
+		-check username, password, and admin status.
+
+#update dict when bought
