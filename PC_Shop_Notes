@@ -1,0 +1,56 @@
+PC_Shop_Notes
+
+Components:
+	Brand
+	Model
+	Price
+	Serial N.
+
+Mother_board:
+	Socket
+	Mem_Type
+	HD_connections- []
+
+Micro:
+	Socket
+	Speed
+
+Mem_RAM:
+	Capacity
+	Mem_Type
+
+
+Hard_drive:
+	Capacity
+	Con_Type
+
+User:
+	status
+	username
+	password
+
+PC:
+	MB
+	Micro
+	Ram
+	HD
+	User
+	Total_price
+
+	-print
+
+Store:
+	Dic MB
+	Dic Ram   
+	Dic Micro   {}  ] cointain instances
+	Dic HD
+	bought_Pcs- []
+
+	-Add
+	-Mod
+	-del
+
+	-avalible
+	-compability
+
+

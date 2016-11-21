@@ -2,7 +2,13 @@
 
 class store():
     users = {}
-    components = {}
+
+    MB = {}
+    RAM = {}
+    Micro = {}
+    HD = {}
+
+    bought_PCs= []
 
     def __init__(self):
-        return
+        pass
