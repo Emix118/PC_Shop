@@ -1,4 +1,4 @@
-from store import store
+
 
 class components():
 

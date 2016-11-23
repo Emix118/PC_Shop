@@ -9,3 +9,4 @@ class mother_board(components):
         self.socket = socket
         self.mem_type = mem_type
         self.HD_connections = HD_connections
+        return 

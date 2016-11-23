@@ -8,3 +8,4 @@ class hard_drive(components):
         components.__init__(self,brand,model,price,serial)
         self.capacity = capacity
         self.con_Type = con_Type
+        return 

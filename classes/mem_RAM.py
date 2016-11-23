@@ -8,3 +8,4 @@ class mem_RAM(components):
         components.__init__(self,brand,model,price,serial)
         self.mem_type = mem_type
         self.capacity = capacity
+        return

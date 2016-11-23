@@ -53,9 +53,6 @@ class user():
 
     def check(self, username, password):
 
-        if self.status == False:
-            print "You're not an admin"
-            return
         if username not in store.users:
             print "User not found"
             return False
