@@ -37,7 +37,7 @@ PC:
 	User/Client
 	Total_price
 
-	-print
+	-print factura
 
 Store:
 	Dic MB

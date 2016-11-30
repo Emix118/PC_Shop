@@ -1,4 +1,4 @@
-from store import store
+
 
 class user():
 
@@ -69,5 +69,4 @@ class user():
         print "Admin Status: " + str(self.status)
         return
 
-#-------------------------------------------------------------------------------
-# TEST ZONE
+from store import store
